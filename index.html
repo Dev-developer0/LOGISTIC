@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safeway Transport India Pvt. Ltd. | Truck transport from Delhi</title>
+<meta name="description" content="Safeway Transport India Private Limited, Mahipalpur, New Delhi. Full truck load, part load and express freight. Get a transport quote on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --asphalt:#1f2428; --steel:#47606f; --amber:#f2b01e; --amber-d:#c98d00;
+  --bg:#f2f4f5; --card:#ffffff; --line:#d9dee1; --ink:#1f2428; --muted:#5a666e;
+  --head:'Barlow Condensed','Arial Narrow',sans-serif;
+  --body:'Barlow',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--head);font-weight:700;line-height:1.05;letter-spacing:.01em}
+h1{font-size:clamp(2.8rem,7vw,5rem)}
+h2{font-size:clamp(2rem,4.5vw,3rem)}
+h3{font-size:1.5rem}
+.btn{display:inline-block;font:600 1rem var(--body);padding:14px 24px;border-radius:4px;text-decoration:none;border:2px solid var(--amber);background:var(--amber);color:var(--asphalt);cursor:pointer;transition:background .15s}
+.btn:hover{background:var(--amber-d);border-color:var(--amber-d)}
+.btn.ghost{background:transparent;color:#fff;border-color:#ffffff66}
+.btn.ghost:hover{border-color:#fff;background:#ffffff14}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:var(--asphalt);color:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{font-family:var(--head);font-size:1.6rem;font-weight:700;text-decoration:none;letter-spacing:.02em}
+.logo span{color:var(--amber)}
+nav{display:flex;gap:26px;align-items:center}
+nav a{text-decoration:none;font-size:.95rem;color:#cfd6da}
+nav a:hover{color:#fff}
+nav .btn{padding:8px 16px;color:var(--asphalt)}
+@media(max-width:760px){nav a:not(.btn){display:none}}
+
+/* hero */
+.hero{background:var(--asphalt);color:#fff;padding:64px 0 80px;position:relative}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:10px;
+  background:repeating-linear-gradient(90deg,var(--amber) 0 48px,transparent 48px 84px)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero p.lead{font-size:1.15rem;color:#c3ccd1;max-width:30em;margin:20px 0 28px}
+.hero .actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero ul{list-style:none;display:flex;gap:22px;flex-wrap:wrap;margin-top:32px;color:#aeb8be;font-size:.95rem}
+.hero li::before{content:"";display:inline-block;width:8px;height:8px;background:var(--amber);margin-right:8px}
+@media(max-width:860px){.hero-grid{grid-template-columns:1fr}}
+
+/* quote form */
+.quote{background:var(--card);color:var(--ink);border-radius:6px;padding:26px;border-top:6px solid var(--amber)}
+.quote h2{font-size:2rem;margin-bottom:4px}
+.quote p{color:var(--muted);font-size:.95rem;margin-bottom:16px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+label{display:block;font-size:.85rem;font-weight:600;margin:10px 0 4px}
+input,select{width:100%;font:inherit;padding:11px 12px;border:1px solid #b8c0c5;border-radius:4px;background:#fff;color:var(--ink)}
+input:focus,select:focus{border-color:var(--asphalt)}
+.quote .btn{width:100%;margin-top:18px;text-align:center}
+.note{font-size:.8rem;color:var(--muted);margin-top:10px;text-align:center}
+@media(max-width:480px){.row{grid-template-columns:1fr}}
+
+/* sections */
+section{padding:84px 0}
+.intro{max-width:36em;margin-bottom:40px}
+.intro p{color:var(--muted);margin-top:12px}
+
+/* services */
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);background:var(--card)}
+.svc{padding:30px;border-bottom:1px solid var(--line)}
+.svc:nth-child(odd){border-right:1px solid var(--line)}
+.svc:nth-last-child(-n+2){border-bottom:0}
+.svc p{color:var(--muted);margin-top:8px}
+@media(max-width:700px){.services{grid-template-columns:1fr}.svc{border-right:0!important}.svc:nth-last-child(2){border-bottom:1px solid var(--line)}}
+
+/* fleet */
+.fleet{background:var(--asphalt);color:#fff}
+.fleet .intro p{color:#aeb8be}
+.table-scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:520px}
+th,td{text-align:left;padding:16px 14px;border-bottom:1px solid #ffffff24}
+th{font-weight:600;color:var(--amber);font-size:.9rem}
+td:first-child{font-family:var(--head);font-size:1.4rem;font-weight:700}
+td{color:#d6dde1}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;counter-reset:s}
+.step{border-top:4px solid var(--amber);padding-top:16px;counter-increment:s}
+.step::before{content:counter(s);font-family:var(--head);font-size:2.4rem;font-weight:700;color:var(--steel)}
+.step p{color:var(--muted);margin-top:6px;font-size:.97rem}
+@media(max-width:860px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}}
+
+/* why */
+.why{background:var(--card);border-block:1px solid var(--line)}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.why-grid p{color:var(--muted);margin-top:6px}
+@media(max-width:760px){.why-grid{grid-template-columns:1fr}}
+
+/* contact */
+.contact{background:var(--steel);color:#fff;text-align:left}
+.contact-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.contact p{color:#e1e8ec;margin-top:12px;max-width:30em}
+.details{list-style:none;display:grid;gap:14px}
+.details li{padding:16px 18px;background:#00000026;border-radius:4px}
+.details small{display:block;color:#c8d3d9;font-size:.8rem}
+.details a{font-weight:600;text-decoration:none;font-size:1.15rem}
+@media(max-width:760px){.contact-grid{grid-template-columns:1fr}}
+
+footer{background:var(--asphalt);color:#9aa6ad;padding:28px 0;font-size:.9rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+.wa{position:fixed;right:16px;bottom:16px;z-index:30;background:#25d366;color:#fff;text-decoration:none;font-weight:600;padding:12px 18px;border-radius:999px;box-shadow:0 4px 14px #0003}
+@media(prefers-reduced-motion:no-preference){
+  .hero::after{animation:road 2.4s linear infinite;background-size:84px 10px}
+  @keyframes road{to{background-position:-84px 0}}
+}
+
+/* photos */
+.hero{background:linear-gradient(rgba(31,36,40,.9),rgba(31,36,40,.82)),url(images/hero.jpg) center/cover var(--asphalt)}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.gallery img,.about-img img{width:100%;display:block;object-fit:cover;border-radius:4px;background:#cfd6da}
+.gallery img{aspect-ratio:4/3}
+.gallery figcaption{font-size:.88rem;color:var(--muted);margin-top:6px}
+@media(max-width:760px){.gallery{grid-template-columns:repeat(2,1fr)}}
+.about{background:var(--card);border-block:1px solid var(--line)}
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+.about-grid.no-img{grid-template-columns:1fr;max-width:40em}
+.about p{color:var(--muted);margin-top:14px}
+.about-img img{aspect-ratio:4/3}
+.facts{list-style:none;margin-top:20px;display:grid;gap:8px;font-size:.95rem}
+.facts li::before{content:"";display:inline-block;width:8px;height:8px;background:var(--amber);margin-right:10px}
+@media(max-width:760px){.about-grid{grid-template-columns:1fr}}
+
+/* marquee + driving truck */
+.mq-text{background:var(--amber);color:var(--asphalt);overflow:hidden;white-space:nowrap;padding:10px 0;font-family:var(--head);font-weight:700;font-size:1.25rem;letter-spacing:.06em;text-transform:uppercase}
+.mq-track{display:inline-flex;width:max-content}
+.mq-track span::before{content:"";display:inline-block;width:8px;height:8px;background:var(--asphalt);margin:0 26px 2px 26px}
+.road{position:relative;height:96px;background:#2a3035;overflow:hidden}
+.road::after{content:"";position:absolute;left:0;right:0;bottom:8px;height:4px;background:repeating-linear-gradient(90deg,#8d99a0 0 36px,transparent 36px 64px);background-size:64px 4px}
+.truck{position:absolute;left:calc(50% - 75px);bottom:22px;width:150px}
+.truck svg{display:block;width:100%;height:auto}
+.spin{transform-box:fill-box;transform-origin:center}
+.ic{width:60px;height:auto;vertical-align:middle;margin-right:14px}
+@media(prefers-reduced-motion:no-preference){
+  .mq-track{animation:mq 30s linear infinite}
+  @keyframes mq{to{transform:translateX(-50%)}}
+  .road::after{animation:dash .7s linear infinite}
+  @keyframes dash{to{background-position-x:-64px}}
+  .truck{left:0;animation:drive 11s linear infinite}
+  @keyframes drive{from{transform:translateX(-180px)}to{transform:translateX(100vw)}}
+  .truck svg{animation:bob .5s ease-in-out infinite alternate}
+  @keyframes bob{to{transform:translateY(-1.5px)}}
+  .spin{animation:rot .5s linear infinite}
+  @keyframes rot{to{transform:rotate(360deg)}}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="truck" viewBox="0 0 220 90">
+  <rect x="4" y="8" width="130" height="54" rx="3" fill="#f2b01e"/>
+  <rect x="4" y="52" width="130" height="10" fill="#c98d00"/>
+  <text x="69" y="41" text-anchor="middle" font-family="Barlow Condensed,Arial Narrow,sans-serif" font-weight="700" font-size="24" letter-spacing="1" fill="#1f2428">SAFEWAY</text>
+  <path d="M138 22h32l24 24v16h-56z" fill="#f4f6f7"/>
+  <path d="M146 29h20l14 15h-34z" fill="#8fa9b7"/>
+  <rect x="4" y="62" width="208" height="8" fill="#1f2428"/>
+  <rect x="204" y="50" width="9" height="7" rx="1" fill="#ffe08a"/>
+  <g fill="#14181b"><circle cx="34" cy="73" r="13"/><circle cx="62" cy="73" r="13"/><circle cx="164" cy="73" r="13"/></g>
+  <g fill="#c9d1d6"><circle cx="34" cy="73" r="5"/><circle cx="62" cy="73" r="5"/><circle cx="164" cy="73" r="5"/></g>
+</symbol></defs></svg>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top">SAFEWAY<span> TRANSPORT</span></a>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#fleet">Fleet</a>
+      <a href="#process">How it works</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="#quote">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Your goods, delivered on time.</h1>
+      <p class="lead">Truck transport for businesses that can't afford late deliveries. Full loads, part loads and urgent shipments, with the driver's location shared on request.</p>
+      <div class="actions">
+        <a class="btn" href="#quote">Get a free quote</a>
+        <a class="btn ghost" href="tel:+910000000000">Call us now</a>
+      </div>
+      <ul>
+        <li>Pickup within 24 hours</li>
+        <li>GPS-tracked trucks</li>
+        <li>Fixed rate before loading</li>
+      </ul>
+    </div>
+
+    <form class="quote" id="quote" aria-labelledby="qh">
+      <h2 id="qh">Get a quote</h2>
+      <p>Fill this in and send it on WhatsApp. We reply with a rate.</p>
+      <div class="row">
+        <div><label for="from">Pickup city</label><input id="from" required placeholder="e.g. Delhi"></div>
+        <div><label for="to">Delivery city</label><input id="to" required placeholder="e.g. Mumbai"></div>
+      </div>
+      <div class="row">
+        <div><label for="type">Load type</label>
+          <select id="type">
+            <option>Full truck load</option>
+            <option>Part load</option>
+            <option>Express delivery</option>
+            <option>Other</option>
+          </select></div>
+        <div><label for="wt">Weight (tonnes)</label><input id="wt" type="number" min="0" step="0.1" placeholder="e.g. 5"></div>
+      </div>
+      <div class="row">
+        <div><label for="nm">Your name</label><input id="nm" required autocomplete="name"></div>
+        <div><label for="ph">Phone</label><input id="ph" type="tel" required autocomplete="tel"></div>
+      </div>
+      <button class="btn" type="submit">Send on WhatsApp</button>
+      <div class="note">Opens WhatsApp with your details filled in.</div>
+    </form>
+  </div>
+</div>
+
+<div class="marquee" aria-label="Our services">
+  <div class="mq-text"><div class="mq-track"><div style="display:flex"><span>Full truck load</span><span>Part load</span><span>Express delivery</span><span>Delhi NCR delivery</span><span>GPS-tracked trucks</span><span>Fixed rate before loading</span></div><div style="display:flex" aria-hidden="true"><span>Full truck load</span><span>Part load</span><span>Express delivery</span><span>Delhi NCR delivery</span><span>GPS-tracked trucks</span><span>Fixed rate before loading</span></div></div></div>
+  <div class="road" aria-hidden="true">
+    <div class="truck"><svg viewBox="0 0 220 90"><use href="#truck" width="220" height="90"/><g class="spin"><line x1="25" y1="73" x2="43" y2="73" stroke="#7b868d" stroke-width="2.5"/><line x1="34" y1="64" x2="34" y2="82" stroke="#7b868d" stroke-width="2.5"/></g><g class="spin"><line x1="53" y1="73" x2="71" y2="73" stroke="#7b868d" stroke-width="2.5"/><line x1="62" y1="64" x2="62" y2="82" stroke="#7b868d" stroke-width="2.5"/></g><g class="spin"><line x1="155" y1="73" x2="173" y2="73" stroke="#7b868d" stroke-width="2.5"/><line x1="164" y1="64" x2="164" y2="82" stroke="#7b868d" stroke-width="2.5"/></g></svg></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="intro">
+      <h2>What we move, and how</h2>
+      <p>Pick the service that matches your load. Not sure which one? Send the details and we'll suggest the cheapest option.</p>
+    </div>
+    <div class="services">
+      <div class="svc"><h3>Full truck load</h3><p>A whole truck for your goods only. Best for 3 tonnes and above, with a direct run from pickup to drop.</p></div>
+      <div class="svc"><h3>Part load</h3><p>Share a truck and pay only for the space you use. Good for smaller consignments between major cities.</p></div>
+      <div class="svc"><h3>Express delivery</h3><p>Urgent shipments sent on the next available truck, with updates until it arrives.</p></div>
+      <div class="svc"><h3>Delhi NCR delivery</h3><p>Local runs within Delhi NCR for shops, factories and traders who need a truck at short notice.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="fleet" class="fleet">
+  <div class="wrap">
+    <div class="intro">
+      <h2>Trucks for every load</h2>
+      <p>Tell us what you are shipping and we'll assign the right size. Capacities below are approximate.</p>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Vehicle</th><th>Typical capacity</th><th>Best for</th></tr></thead>
+        <tbody>
+          <tr><td><svg class="ic" style="width:46px" viewBox="0 0 220 90" aria-hidden="true"><use href="#truck"/></svg>Mini truck</td><td>Up to 1 tonne</td><td>Local and intercity small loads</td></tr>
+          <tr><td><svg class="ic" style="width:60px" viewBox="0 0 220 90" aria-hidden="true"><use href="#truck"/></svg>14 ft truck</td><td>Up to 4 tonnes</td><td>Retail stock, appliances, FMCG</td></tr>
+          <tr><td><svg class="ic" style="width:78px" viewBox="0 0 220 90" aria-hidden="true"><use href="#truck"/></svg>19 ft truck</td><td>Up to 9 tonnes</td><td>Industrial goods, building material</td></tr>
+          <tr><td><svg class="ic" style="width:100px" viewBox="0 0 220 90" aria-hidden="true"><use href="#truck"/></svg>32 ft container</td><td>Up to 18 tonnes</td><td>Long-haul bulk and sealed cargo</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery-sec" hidden>
+  <div class="wrap">
+    <div class="intro"><h2>Our trucks on the road</h2><p>Real vehicles from our fleet, loaded and dispatched from Delhi.</p></div>
+    <div class="gallery">
+      <figure><img src="images/truck-1.jpg" alt="Safeway Transport truck ready for loading" loading="lazy"><figcaption>Ready for loading</figcaption></figure>
+      <figure><img src="images/truck-2.jpg" alt="Goods being loaded onto a truck" loading="lazy"><figcaption>Careful loading</figcaption></figure>
+      <figure><img src="images/truck-3.jpg" alt="Safeway Transport truck on the highway" loading="lazy"><figcaption>On the highway</figcaption></figure>
+      <figure><img src="images/truck-4.jpg" alt="Truck at delivery point" loading="lazy"><figcaption>Delivered on time</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap about-grid">
+    <div>
+      <h2>A registered Delhi transport company</h2>
+      <p>Safeway Transport India Private Limited is a registered company based in Mahipalpur, New Delhi. We run truck transport for traders, factories and businesses that need goods moved safely and on schedule.</p>
+      <ul class="facts">
+        <li>Registered Private Limited company, CIN U49230DL2024PTC433757</li>
+        <li>Office at Rangpuri, Mahipalpur, New Delhi 110037</li>
+        <li>You can visit the office before booking your first load</li>
+      </ul>
+    </div>
+    <figure class="about-img"><img src="images/office.jpg" alt="Safeway Transport office in Mahipalpur, New Delhi" loading="lazy"></figure>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="intro"><h2>From enquiry to delivery</h2></div>
+    <div class="steps">
+      <div class="step"><h3>Send details</h3><p>Share the route, load type and weight.</p></div>
+      <div class="step"><h3>Get a rate</h3><p>We reply with a fixed price and truck type.</p></div>
+      <div class="step"><h3>We collect</h3><p>The truck reaches your address for loading.</p></div>
+      <div class="step"><h3>We deliver</h3><p>You get the location on request, and a signed delivery receipt.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <div class="intro"><h2>Why businesses stay with us</h2></div>
+    <div class="why-grid">
+      <div><h3>Clear pricing</h3><p>The rate is agreed before loading. No extra charges added on the road.</p></div>
+      <div><h3>Verified drivers</h3><p>Experienced drivers with valid licences and documents for every trip.</p></div>
+      <div><h3>Someone picks up the phone</h3><p>Call or message at any point in the trip and get a direct answer.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Have a load to move?</h2>
+      <p>Call us or send the details on WhatsApp. Most quotes are answered the same day.</p>
+    </div>
+    <ul class="details">
+      <li><small>Phone</small><a href="tel:+910000000000">+91 00000 00000</a></li>
+      <li><small>Email</small><a href="mailto:hello@example.com">hello@example.com</a></li>
+      <li><small>Office</small>Kh. No. 605, 2nd Floor, Village Rangpuri, near Telco Service Station, Mahipalpur, New Delhi 110037</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Safeway Transport India Private Limited &middot; CIN U49230DL2024PTC433757</span>
+    <span>Mahipalpur, New Delhi</span>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/910000000000" aria-label="Chat on WhatsApp">WhatsApp us</a>
+
+<script>
+  // Replace with the real number: country code + number, no + or spaces
+  var WHATSAPP = "910000000000";
+  document.getElementById("quote").addEventListener("submit", function(e){
+    e.preventDefault();
+    var v = function(id){ return document.getElementById(id).value.trim(); };
+    var msg = "Hello, I need a transport quote.\n" +
+      "From: " + v("from") + "\nTo: " + v("to") +
+      "\nLoad: " + v("type") + (v("wt") ? " (" + v("wt") + " tonnes)" : "") +
+      "\nName: " + v("nm") + "\nPhone: " + v("ph");
+    window.open("https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(msg), "_blank");
+  });
+
+  // Show photo sections only when the image files exist in /images
+  (function(){
+    var g=document.getElementById("gallery"), n=0;
+    g.querySelectorAll("img").forEach(function(i){
+      function ok(){ n++; g.hidden=false; }
+      function bad(){ i.closest("figure").remove(); }
+      i.addEventListener("load",ok); i.addEventListener("error",bad);
+      if(i.complete){ i.naturalWidth?ok():bad(); }
+    });
+    var a=document.querySelector(".about-img img");
+    function noImg(){ a.closest("figure").remove(); document.querySelector(".about-grid").classList.add("no-img"); }
+    a.addEventListener("error",noImg);
+    if(a.complete&&!a.naturalWidth) noImg();
+  })();
+</script>
+</body>
+</html>
